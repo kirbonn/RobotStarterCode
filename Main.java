@@ -62,6 +62,32 @@ public class Main implements Directions {
     karel.move();
     karel.putBeeper();
 
+    Robot andy = new Robot(3,6,North,20);
+    andy.move();
+    andy.putBeeper();
+    andy.move();
+    andy.putBeeper();
+    andy.move();
+    andy.putBeeper();
+    andy.move();
+    andy.putBeeper();
+    turnRight(andy);
+    andy.move();
+    andy.putBeeper();
+    andy.move();
+    turnRight(andy);
+    andy.move();
+    andy.putBeeper();
+    andy.move();
+    turnRight(andy);
+    andy.move();
+    andy.putBeeper();
+    andy.turnLeft();
+    andy.move();
+    andy.turnLeft();
+    andy.move();
+    andy.putBeeper();
+    
     
 
 
