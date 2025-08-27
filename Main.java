@@ -20,10 +20,10 @@ public class Main implements Directions {
         World.setDelay(10);
 
         //STARTING POSITION
-        int xaxis = 1;
-        int yaxis = Size / 2;
+        int yaxis = 1;
+        int xaxis = Size / 2;
 
-        Robot fred = new Robot(xaxis, yaxis, North, side * 4);
+        Robot fred = new Robot(yaxis, xaxis, North, side * 4);
 
         THEdiamond(fred, side);
     }
